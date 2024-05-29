@@ -45,7 +45,6 @@ I identified the bug was caused by the merge method being called on the incorrec
 
 -The contents of each file before fixing the bug
 ![Image](testlist.jpg)
-![Image](grade.jpg)
 ![Image](list-examples-grader.jpg)
 ![Image](Server.jpg)
 ![Image](ListExamples.jpg)
