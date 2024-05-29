@@ -35,6 +35,7 @@ I dentified the bug to be that the merge method was being called on the incorrec
 
 
 -The full command line (or lines) you ran to trigger the bug: `bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected`
+
 -A description of what to edit to fix the bug: I edited line 17 in the `TestListExamples`  file from week 6. The failure inducing code was `List<String> merged = ListExamples.merge(left, right);`. Which I then edited to be, `List<String> merged = ListExamples.merge(left, right);`
 
 # Part 2 - Reflection 
