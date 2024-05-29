@@ -3,4 +3,7 @@
 
 
 ## Student Piazza Post 
-![Image](studentpiazza.jpg)
+![Image](studentpiazzaa.jpg)
+
+![Image](studenterrorcode.jpg)
+![Image](studenterror.jpg)
