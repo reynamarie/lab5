@@ -21,25 +21,27 @@ The code and error jpg's attached in the Piazza post
 I identified the bug was caused by the merge method being called on the incorrect class. The bug inducing `TestListExamples` was  calling the merge method on `TestListExamples`. To fix this, I change line 17 to ` List<String> merged = ListExamples.merge(left, right);`. Here, the merge method is being called on `ListExamples`. It is correct to call `merge` on the `ListExamples` class because that is where it is defined. 
 
 
-## 4. Information needed about the setup
-list-examples-grader
-│
-├── GradeServer.java
-├── Server.java
-├── TestListExamples.java
-├── grade.sh
-│
-├── grading-area
-│   ├── IsMoon.class
-│   ├── ListExamples.java
-│   ├── ListExamples.class
-│   ├── StringChecker.class
-│   ├── TestListExamples.class
-│   ├── TestListExamples.java
-│   └── lib
-│
-└── student-submission
+## 4. Information needed about the setup\
 
+```
+              list-examples-grader
+              │
+              ├── GradeServer.java
+              ├── Server.java
+              ├── TestListExamples.java
+              ├── grade.sh
+              │
+              ├── grading-area
+              │   ├── IsMoon.class
+              │   ├── ListExamples.java
+              │   ├── ListExamples.class
+              │   ├── StringChecker.class
+              │   ├── TestListExamples.class
+              │   ├── TestListExamples.java
+              │   └── lib
+              │
+              └── student-submission
+```
 
 -The contents of each file before fixing the bug
 ![Image](testlist.jpg)
