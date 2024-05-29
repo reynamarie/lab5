@@ -22,7 +22,24 @@ I dentified the bug to be that the merge method was being called on the incorrec
 
 
 ## 4. Information needed about the setup
--The file & directory structure needed
+list-examples-grader
+│
+├── GradeServer.java
+├── Server.java
+├── TestListExamples.java
+├── grade.sh
+│
+├── grading-area
+│   ├── IsMoon.class
+│   ├── ListExamples.java
+│   ├── ListExamples.class
+│   ├── StringChecker.class
+│   ├── TestListExamples.class
+│   ├── TestListExamples.java
+│   └── lib
+│
+└── student-submission
+
 
 -The contents of each file before fixing the bug
 ![Image](testlist.jpg)
