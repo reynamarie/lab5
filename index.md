@@ -25,11 +25,12 @@ I dentified the bug to be that the merge method was being called on the incorrec
 -The file & directory structure needed
 
 -The contents of each file before fixing the bug
-![Image](studenterrorcode.jpg)
+![Image](testlist.jpg)
 ![Image](grade.jpg)
 ![Image](list-examples-grader.jpg)
 ![Image](Server.jpg)
 ![Image](listexamples.jpg)
+
 
 
 
