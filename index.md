@@ -56,4 +56,4 @@ list-examples-grader
 -A description of what to edit to fix the bug: I edited line 17 in the `TestListExamples`  file from week 6. The failure inducing code was `List<String> merged = TestListExamples.merge(left, right);`. Which I then edited to be, `List<String> merged = ListExamples.merge(left, right);`
 
 # Part 2 - Reflection 
-Something cool I leared is that I can use `man` or `--help` in the command line to learn more about a specific command. I used this for vim and `grep` in the second half of the quarter. I think that this is a really quick and useful way of learning more about commands. 
+Something cool I learned is that I can use `man` or `--help` in the command line to learn more about a specific command. I used this for vim and `grep` in the second half of the quarter. I think that this is a really quick and useful way of learning more about commands. 
