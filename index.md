@@ -21,7 +21,7 @@ The code and error jpg's attached in the Piazza post
 I dentified the bug to be that the merge method was being called on the incorrect class. The bug inducing `TestListExamples` was  calling the merge method on `TestListExamples`. To fix this, I change line 17 to ` List<String> merged = ListExamples.merge(left, right);`. Here, the merge method is being called on `ListExamples`. 
 
 
-## 4 Information needed about the setup
+## 4. Information needed about the setup
 -The file & directory structure needed
 
 -The contents of each file before fixing the bug
