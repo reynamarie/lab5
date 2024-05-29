@@ -7,3 +7,10 @@
 
 ![Image](studenterrorcode.jpg)
 ![Image](studenterror.jpg)
+
+
+
+
+## Response from a TA 
+![Image](piazza.jpg)
+
