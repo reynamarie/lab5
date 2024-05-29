@@ -6,7 +6,7 @@
 ![Image](studentpiazzaa.jpg)
 
 
-The code and error jpg's attached in the Piazza post
+The jpg for the code and error  attached in the Piazza post
 ![Image](studenterrorcode.jpg)
 ![Image](studenterror.jpg)
 
