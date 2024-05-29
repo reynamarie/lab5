@@ -29,7 +29,7 @@ I dentified the bug to be that the merge method was being called on the incorrec
 ![Image](grade.jpg)
 ![Image](list-examples-grader.jpg)
 ![Image](Server.jpg)
-![Image](listexamples.jpg)
+![Image](ListExamples.jpg)
 
 
 
