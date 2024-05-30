@@ -22,7 +22,7 @@ I identified the bug was caused by the merge method being called on the incorrec
 
 
 ## 4. Information needed about the setup
-
+-The file & directory structure needed
 ```
               list-examples-grader
               │
