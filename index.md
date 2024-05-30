@@ -18,7 +18,7 @@ The jpg for the code and error  attached in the Piazza post
 
 ## 3.  Terminal output showing what information the student got and clear description of the bug
 ![Image](fixbug.jpg)
-I identified the bug was caused by the merge method being called on the incorrect class. The bug inducing `TestListExamples` was  calling the merge method on `TestListExamples `.The `merge` method is not defined in `TestListExamples`, so we should not call `merge` on the `TestListExamples`. To fix this, I changed line 17 to `List<String> merged = ListExamples.merge(left, right)`. Here, the merge method is being called on `ListExamples`. It is correct to call `merge` on the `ListExamples` class because that is where it is defined. 
+I identified the bug was caused by the `merge` method being called on the incorrect class. The bug inducing `TestListExamples` was  calling the `merge` method on `TestListExamples`. The `merge` method is not defined in `TestListExamples`, so we should not call `merge` on the `TestListExamples`. To fix this, I changed line 17 to `List<String> merged = ListExamples.merge(left, right)`. Here, the `merge` method is being called on `ListExamples`. It is correct to call `merge` on the `ListExamples` class because that is where it is defined. 
 
 
 ## 4. Information needed about the setup
